@@ -1,0 +1,15 @@
+/*
+Student:	Marina Fiamskaia
+Student ID:	025-698-051
+email:		mfiamska@myseneca.ca
+Date:		May 31, 2022
+Subject:	OOP345 NAA
+Project:	Workshop 2 part 2 reflect
+
+****I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.****
+*/
+
+The main concepts covered in the workshop two are retrieval of records from a text file using an input file stream object; counting the number of records in a text file; monitoring the time spent on a particular task using the std::chrono library; implementation of the copy semantics for a class with resources; implementation of the move semantics for a class with resources; identifying the processing-intensive operations in copy and move assignments. 
+I had encountered a major difficulty creating a ProteinDatabase one argument constructor. The issue was what logic to implement building a reading from file function. Even though we had very clear instructions from professor and very clear examples of code, I still had a problem figuring out the logic of the third part of the function. The issue was recognizing where protein string begins and where it ends, while ignoring the rest. I have ended up using getline(file, string) function from i/o library. It would get whole line of characters from file; determine if first character is not “>” then concatenate the retrieved string to the pd_str[i] in database. As a second step, in separate if statement it would test if first character “>” and if pd_str[i] already got string of characters in it, if yes it would increment iterator. Otherwise, the function would ignore the retrieved string and do nothing.
+In this workshop I have learned to work with std::string objects. Even though, at first it was challenging to figure it out even with professor’s explanation, I find it extremely beneficial and looking forward to using it in future workshops.
+Also, I have learned to implement move operators, and the practical reasons for it. The move operations seem to be significantly faster than the copy operations due to the fact that std::move() allows for the source object to be left in invalid state. The resources that are outside the class are reassigned to the class pointers, without creating a copy of those resources. No need to copy the outside resources one by one to the new class.

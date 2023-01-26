@@ -1,0 +1,8 @@
+﻿  w8_p1.cpp
+  WritingRecord.cpp
+C:\Users\User\Desktop\Seneca\OOP345\OOP-myRepository\w8p1\GeneratingList.h(83,21): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+C:\Users\User\Desktop\Seneca\OOP345\OOP-myRepository\w8p1\GeneratingList.h(75): message : while compiling class template member function 'bool sdds::GeneratingList<sdds::EmployeeWage>::checkLuhn(const std::string &)'
+C:\Users\User\Desktop\Seneca\OOP345\OOP-myRepository\w8p1\WritingRecord.cpp(28): message : see reference to function template instantiation 'bool sdds::GeneratingList<sdds::EmployeeWage>::checkLuhn(const std::string &)' being compiled
+C:\Users\User\Desktop\Seneca\OOP345\OOP-myRepository\w8p1\WritingRecord.cpp(19): message : see reference to class template instantiation 'sdds::GeneratingList<sdds::EmployeeWage>' being compiled
+  Generating Code...
+  w8p1.vcxproj -> C:\Users\User\Desktop\Seneca\OOP345\OOP-myRepository\w8p1\Debug\w8p1.exe

@@ -1,0 +1,14 @@
+/*
+Student:	Marina Fiamskaia
+Student ID:	025-698-051
+email:		mfiamska@myseneca.ca
+Date:		August 10, 2022
+Subject:	OOP345 NAA
+Project:	Final Project MS3 Reflect
+
+****I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.****
+*/
+
+While completing final project for oop345, I have practiced many concepts that we have learned during the semester. I find that project itself was quite interesting and relevant. Although, it was challenging. My biggest challenge as usual, was understanding the instructions. There is a famous saying in my language “understanding the expected outcome is half completed job”. Unfortunately, despite having access to the amazing walk-through for the project, I still stumble quite few times because of misunderstood instructions. 
+Also, I wanted to point out that I did have a difficulty understanding how orders are getting filled. Writing CustomerOrder::fillItem(Station& station, std::ostream& os) functionality was my biggest challenge. I could not grasp a concept that only one item at a time getting filled in the station. The ms2 submission didn’t check for how many items getting filled in each order at a time. So when it came time for the ms3, my output didn’t match. I was looking for error in many places, including fillItem function. But could not find it until, I reviewed the walkthrough video again. And still, I find it illogical for the assembly line.
+I really wish I had more time to go through my code and implement more algorithms and simplify and improve it. Perhaps, I will be able to do so after the semester is over.
